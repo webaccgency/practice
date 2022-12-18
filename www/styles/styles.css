@@ -56,6 +56,10 @@ body {
     text-decoration: none;
 }
 
+.registration a:hover {
+    border-bottom: 1px solid #030305;
+}
+
 .registration a {
     text-decoration: none;
     color: #000000;
@@ -76,4 +80,35 @@ body {
 .main-info {
     padding: 335px 0;
     max-width: 800px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+}
+
+.phone-text {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: bolder;
+}
+
+.phone-img {
+    display: flex;
+    padding-right: 10px;
+}
+
+.phone-img img {
+    align-items: center;
+    width: 25px;
+}
+
+.images img {
+    margin: 0 6.5px;
 }
