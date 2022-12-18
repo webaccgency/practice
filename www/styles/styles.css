@@ -1,0 +1,59 @@
+@font-face {
+    font-family: SF Pro Display;
+    src: url("../fonts/SF-Pro-Display-Medium.otf");
+}
+@font-face {
+    font-family: SF Pro Display;
+    src: url("../fonts/SF-Pro-Display-Semibold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: SF Pro Display;
+    src: url("../fonts/SF-Pro-Display-Bold.otf");
+    font-weight: bolder;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("../images/background.png");
+    font-family: 'SF Pro Display';
+}
+.container img {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 48px;
+    top: 53px;
+}
+.container .logo-text{
+    position: absolute;
+    width: 146px;
+    height: 38px;
+    left: 80px;
+    top: 50px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
+.container .registration{
+    position: absolute;
+    width: 188px;
+    height: 38px;
+    left: 1679px;
+    top: 50px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight:bold;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #000000;
+}
